@@ -7,10 +7,10 @@ import { DashboardComponent } from '../../dashboard/dashboard.component';
 import { UserProfileComponent } from '../../user-profile/user-profile.component';
 import { TableListComponent } from '../../table-list/table-list.component';
 import { TypographyComponent } from '../../typography/typography.component';
-import { IconsComponent } from '../../icons/icons.component';
-import { MapsComponent } from '../../maps/maps.component';
 import { NotificationsComponent } from '../../notifications/notifications.component';
-import { UpgradeComponent } from '../../upgrade/upgrade.component';
+import { PdfJsViewerModule } from 'ng2-pdfjs-viewer';
+import { BrowserModule } from '@angular/platform-browser';
+
 
 import {
   MatButtonModule,
@@ -27,16 +27,14 @@ import {
     MatRippleModule,
     MatInputModule,
     MatTooltipModule,
+    PdfJsViewerModule,
   ],
   declarations: [
     DashboardComponent,
     UserProfileComponent,
     TableListComponent,
     TypographyComponent,
-    IconsComponent,
-    MapsComponent,
     NotificationsComponent,
-    UpgradeComponent,
   ]
 })
 
